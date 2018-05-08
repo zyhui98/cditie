@@ -2,7 +2,7 @@
  * Created by zhuyunhui on 5/8/2018.
  */
 CONFIG = {
-    weather:"http://localhost:8080/weather",
+    weather:"http://39.108.217.41:8080/weather",
     today:""
 }
 
