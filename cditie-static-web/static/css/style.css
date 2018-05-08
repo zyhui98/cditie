@@ -89,7 +89,7 @@ body {
     border-bottom-color: #ffffff;
 }
 
-@media (max-width: 767) {
+@media (max-width: 767px) {
     .bb-js .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #ffffff;
     }
@@ -183,8 +183,7 @@ body {
     background: #54949B;
     color: #fff;
     font-size: 24px;
-    padding-bottom: 25px;
-    padding-top:30%;
+    padding-top:100%;
     text-align: left;
     margin-bottom: 1em;
 }
