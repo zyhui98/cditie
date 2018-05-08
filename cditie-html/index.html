@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <title>过节APP</title>
+  </head>
+  <body>
+
+<style type="text/css">
+    [v-cloak] {
+        display: none;
+    }
+
+  
+  body { 
+    padding-bottom: 50px; 
+    padding-top: 40px;
+  }
+  .bg{background:url(back.png) no-repeat center fixed;background-size:contain}
+
+  .navbar-bg {
+    background-color:blue
+  }
+
+</style>
+
+<div class="navbar fixed-top navbar-dark bg-primary" >
+    <div style="width:50px;height: 40px; margin:0 auto; "><!--宽度设置你的内容的宽度-->
+        <ul class="nav navbar-nav">
+            <li ><a class="navbar-brand" href="#">乘地铁</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div class="card">
+  <img class="card-img-top" src="back.png" alt="七夕">
+  <div class="card-body">
+    <div class="jumbotron" >
+      <div class="container" >
+          <span id="app_weather" v-cloak> {{ message }}</span>
+      </div>
+    </div>
+  </div>
+  <!--<ul class="list-group list-group-flush">-->
+    <!--<li class="list-group-item">-->
+        <!--<div class="alert alert-primary" role="alert" data-toggle="modal" data-target="#exampleModalLong">-->
+          <!--<a>抱一下</a>-->
+        <!--</div>-->
+        <!--<div class="alert alert-secondary" role="alert" data-toggle="modal" data-target="#exampleModalLong2">-->
+          <!--亲一亲-->
+        <!--</div>-->
+        <!--<div class="alert alert-success" role="alert" data-toggle="modal" data-target="#exampleModalLong3">-->
+          <!--牵手一生-->
+        <!--</div>-->
+        <!--<div class="alert alert-danger" role="alert" >-->
+          <!--<a href="JavaScript:sendSMS()">我要过节红包</a>-->
+        <!--</div>-->
+
+    <!--</li>-->
+  <!--</ul>-->
+ 
+</div>
+
+
+<!---------------------------------->
+<div class="nav fixed-bottom bg-light">
+   <div class="container">
+    <!-- Content here -->
+      <nav class="nav nav-pills nav-fill">
+        <a class="nav-item nav-link active" href="#">主页</a>
+        <a class="nav-item nav-link " href="#">订阅</a>
+        <a class="nav-item nav-link " href="#">我</a>
+      </nav>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script type="text/javascript" src="http://www.zeptojs.cn/zepto.min.js"></script>
+
+<!-- 生产环境版本，优化了尺寸和速度 -->
+<!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
+<script src="app.js" ></script>
+
+
+
+  </body>
+</html>
